@@ -1,27 +1,45 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/logo/logo.svg'
 const Header = () => {
   return (
-    <div>
-      <header className='bg-gray-200 '>
-       <div className='flex justify-between '>
-        <div className='p-4'>
-            <h1>Logo</h1>
+    <div className='w-full h-full flex items-center justify-center'>
+      <header className='p-0 gap-0 flex items-center justify-between w-full h-full'>
+        <div className='flex items-center'>
+          <img src={Logo} alt="Logo" className='h-20' />
         </div>
-       </div>
-       <div className='flex relative justify-end-safe gap-2 p-8 '>
-         
-            <Link>Home</Link>
-            <Link>About</Link>
-            <Link>Contact</Link>
-            <Link>Services</Link>
-        
-       </div>
-    </header>
-  
-    
+        <div
+          className='flex gap-15 h-10 text-[20px] text-[#0092B2]'
+          
+        >
+          <Link
+            to="/"
+            className="hover:text-[#93B611] hover:text-[22px] transition-all duration-300"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            className="hover:text-[#93B611] hover:text-[22px] transition-all duration-300"
+          >
+            About
+          </Link>
+          <Link
+            to="/contact"
+            className="hover:text-[#93B611] hover:text-[22px] transition-all duration-300"
+          >
+            Contact
+          </Link>
+          <Link
+            to="/services"
+            className="hover:text-[#93B611] hover:text-[22px] transition-all duration-300"
+          >
+            Services
+          </Link>
+        </div>
+      </header>
     </div>
-  ) 
+  )
 }
 
 export default Header
