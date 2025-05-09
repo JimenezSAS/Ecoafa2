@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/logo.svg";
+
 const Header = () => {
   return (
     <div className="w-full h-full flex items-center justify-center">
@@ -22,8 +23,8 @@ const Header = () => {
             Contact
           </Link>
 
-          <Link to="/services" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300" >
-            Services
+          <Link to="/proyectos" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300" >
+           Proyectos
           </Link>
 
         </div>
@@ -32,4 +33,6 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;  
+
+
