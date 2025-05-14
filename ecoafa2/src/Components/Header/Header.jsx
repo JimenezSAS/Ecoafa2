@@ -4,8 +4,8 @@ import Logo from "../../assets/logo/logo.svg";
 
 const Header = () => {
   return (
-     <div className="w-full h-full flex items-center justify-center">
-      <header className="p-3 gap-15 flex items-center justify-between w-full h-full">
+     <div className="w-full h-full flex items-center justify-center overflow-hidden ">
+      <header className="p-1 gap-15 flex items-center justify-between w-full h-full ">
         <div className="flex items-center">
           <img src={Logo} alt="Logo" className="h-20 flex justify-center items-center" />
         </div>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Tetes from '../../../assets/ProyectosCiviles/Tetes.jpg'
-const Tarjeta1 = () => {
+import Tetes from '../../../../assets/ProyectosCiviles/Tetes.jpg'
+const Card7 = () => {
   return (
-    <>
-      <div className="flex flex-row bg-white rounded-lg shadow-lg shadow-black overflow-hidden max-w-7xl max-h-96 mx-auto my-5 transform hover:scale-105 transition-all duration-500 h-[600px]">
+    <section className=' flex w-full h-96 p-4 m-auto'>
+      <div className="flex flex-row bg-white/80 rounded-lg shadow-lg  overflow-hidden w-7xl max-h-96 mx-auto my-5 transform hover:scale-105 transition-all duration-500 h-[600px] ">
         <div className="flex-1 bg-cover bg-center" style={{ backgroundImage: `url(${Tetes})` }}></div>
         <div className="flex-2 p-5 flex flex-col justify-between grid-cols-2">
           <div>
@@ -16,8 +16,8 @@ const Tarjeta1 = () => {
           </button>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 
-export default Tarjeta1
+export default Card7
