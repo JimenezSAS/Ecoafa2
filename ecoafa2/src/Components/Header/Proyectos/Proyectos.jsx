@@ -1,6 +1,7 @@
 import ambiente from '../../../assets/logo/ambiente(1).jpg'
 import {proyectosData} from './Data/ProyectosData';
 import { useEffect, useState } from 'react';
+import Paginacion from './Paginacion';
 import ReactDOM from 'react-dom';
 
 
@@ -10,6 +11,16 @@ const Proyectos = () => {
   const [showImage, setShowImage] = useState(false);
   // Estado para saber qué cards están expandidas (array de ids)
   const [expandedIds, setExpandedIds] = useState([]);
+
+   // Calcular los proyectos a mostrar en la página actual
+  // Estado para la paginación
+  const [paginaActual, setPaginaActual] = useState(1);
+  const proyectosPorPagina = 9;
+
+  // Calcular los proyectos a mostrar en la página actual
+  const indiceUltimo = paginaActual * proyectosPorPagina;
+  const indicePrimero = indiceUltimo - proyectosPorPagina;
+  const proyectosPagina = proyectosData.slice(indicePrimero, indiceUltimo);
 
   // Efecto para mostrar la imagen de fondo con animación al montar el componente
   useEffect(() => {
@@ -29,16 +40,50 @@ const Proyectos = () => {
           alt="Logo"
         />
         {/* Título centrado sobre la imagen */}
-        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-36 t</div>ext-6xl md:text-7xl font-montserrat font-bold text-center uppercase tracking-[0.2em] text-[#0097B2] drop-shadow-2xl z-20">
+        <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-36 text-6xl md:text-7xl font-montserrat font-bold text-center uppercase tracking-[0.2em] text-[#0097B2] drop-shadow-2xl z-20">
          Nuestros Proyectos y experiencia
         </h1>
       </div>
-
+      {/* Estilos para igualar altura de las cards y mostrar solo parte del contenido */}
+      <style>
+        {`
+          .proyecto-card-content {
+            min-height: 220px;
+            max-height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            overflow: hidden;
+            position: relative;
+          }
+          .proyecto-card-content p {
+            flex: 1 1 auto;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            margin-bottom: 1rem;
+          }
+          .proyecto-card-content .fade-bottom {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 56px;
+            height: 40px;
+            background: linear-gradient(to bottom, rgba(255,255,255,0), #fff 90%);
+            pointer-events: none;
+          }
+          .proyecto-card-content button {
+            margin-top: auto;
+          }
+        `}
+      </style>
       {/* Grilla de proyectos */}
       <div className="w-full flex justify-center items-center py-16 px-4">
         <div className="relative w-full max-w-6xl">
           <div className="grid grid-}cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full relative z-20">
-            {proyectosData.map((proyecto) => {
+            {proyectosPagina.map((proyecto) => {
               // Saber si esta card está expandida y si hay alguna expandida
               const isExpanded = expandedIds.includes(proyecto.id);
               const isAnyExpanded = expandedIds.length > 0;
@@ -62,14 +107,16 @@ const Proyectos = () => {
                       className="w-full h-56 bg-cover bg-center rounded-t-xl p-0"
                       style={{ backgroundImage: `url(${proyecto.imagen})` }}
                     ></div>
-                    <div className="p-6 w-full flex flex-col items-start">
+                    <div className="p-6 w-full flex flex-col items-start proyecto-card-content">
                       <h2 className="text-2xl font-bold mb-4 text-[#0092B2]">{proyecto.titulo}</h2>
-                      <p className="text-black mb-4">{proyecto.descripcion}</p>
+                      <p className="text-black mb-4 flex-1">{proyecto.descripcion}</p>
+                      <div className="flex-1" />
                       <button
                         className={`px-6 py-2 font-semibold mt-2 rounded bg-[#93B611] text-white hover:bg-[#0092B2] hover:text-white transition-colors duration-200 shadow`}
                       >
                         ACCEDER
                       </button>
+                      <div className="fade-bottom"></div>
                     </div>
                   </div>
                   {/* Card expandida (usando portal para centrar en pantalla) */} 
@@ -119,6 +166,13 @@ const Proyectos = () => {
               );
             })}
           </div>
+          {/* Paginación */}
+          <Paginacion
+            total={proyectosData.length}
+            porPagina={proyectosPorPagina}
+            paginaActual={paginaActual}
+            setPaginaActual={setPaginaActual}
+          />
         </div>
       </div>
     </section>
