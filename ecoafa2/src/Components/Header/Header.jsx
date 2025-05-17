@@ -15,18 +15,18 @@ const Header = () => {
             Home
           </Link>
 
-          <Link to="/about" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
+          <Link to="/nosotros" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
             About
           </Link>
 
-          <Link to="/contact"  className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
+          <Link to="/contacto"  className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
             Contact
           </Link>
 
           <Link to="/proyectos" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300" >
            Proyectos
           </Link>
-
+          
         </div>
       </header>
     </div>

@@ -20,6 +20,13 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    theme: {
+  extend: {
+    fontFamily: {
+      montserrat: ['Montserrat', 'sans-serif'],
+    },
+  },
+},
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
