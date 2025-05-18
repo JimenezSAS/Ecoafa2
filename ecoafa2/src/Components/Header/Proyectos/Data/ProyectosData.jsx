@@ -92,93 +92,372 @@ import plantagas from "../../../../assets/ProyectosCiviles/plantagas.png";
   },
   {
     id: 10,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Contrato de Consultoría No 001 de 2007",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: " Elaboración levantamientos de estudios topográficos, técnicos, avalúos Comerciales, Gastos de Documentación, Escrituración y vallas "
   },
   {
     id: 11,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Contrato de Obra No. 168 de 2009",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+   detalles: " Adelantar el establecimiento de unidades productivas de semiestabulación y parcelas silvopastoril en el Municipio de Gachalá, Cundinamarca. "
   },
   {
     id: 12,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Contrato Prestación de Servicios. N° 110 de 2010",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: " Conformar con los actores involucrados en las anteriores fases de los procesos de ruralidad de áreas protegidas y nuevos actores, una red de la sociedad civil que lidere y articule acciones conducentes al favorecimiento en procesos de gestión para el manejo sostenible de las zonas de reserva y áreas rurales de la localidad de Suba. "
   },
   {
     id: 13,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Contrato No. 020 de 2011",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: " Reforestación protectora de 62ha y mantenimiento de 197ha y aislamiento de 22ha en el Municipio de Nobsa  Departamento Boyacá"
   },
   {
     id: 14,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: " Contrato No. 082 de 2009",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: " Realizar el establecimiento, mantenimiento y aislamiento de plantaciones forestales en las veredas Salinas y Boitiva sector la playa del Municipio de Sesquilé - Cundimamarca "
   },
   {
     id: 15,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Contrato de obra No. 121 de 2011",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: " Recuperación mediante de áreas degradadas reforestación Protectora, productora en las veredas Chinzaque, Taravita, Nemoga y Centro de Municipio de Fúquene Cundinamarca "
   },
   {
     id: 16,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: " Contrato de prestación de servicios Nº 0082 de 2011",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: "Interventoría técnica, administrativa, y financiera del proyecto de inversión: Implementación desistemas agroecológicos sostenibles yrepoblamiento forestal en encomunidades áreas indígenas departamento deCaquetá degradadasn en el"
   },
   {
     id: 17,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: " Orden de Servicio N. 58 de 2012",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: "Realizar el Plan de Manejo Ambiental del Pozo estratigráfico Portofino A. "
   },
   {
     id: 18,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: "Orden de  Servicios No. 064 del 12 de agosto de 2011",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: "Sostenimiento de la recuperación ambiental de Recio 1 y 2 comprendida por 1200 árboles y zona de pastos, además dereplantar los árboles perdidos durante 10 meses, MANO DE OBRA, INSUMOS, COSTOS INDIRECTOS. "
   },
   {
     id: 19,
-    titulo: "Orden de servicio No. 805 de 2012",
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
     descripcion: "",
     imagen: plantagas,
     color: "bg-green-700",
     colorHover: "hover:text-green-700",
-    detalles: "Realización del Plan de Manejo Ambiental para la reubicación de la Planta de Gas del Campo Rancho Hermoso, Departamento del Casanare"
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 20,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 21,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 22,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 23,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 24,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 25,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 26,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 27,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 28,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 29,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 30,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 31,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 32,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 33,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 34,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 35,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 36,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 37,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 38,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 39,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 40,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 41,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 42,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 43,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 44,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 45,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 46,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 47,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 48,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 49,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
+  },
+  {
+    id: 50,
+    titulo: " Contrato de Consultoría No.200-12-3-569 de 2009 ",
+    descripcion: "",
+    imagen: plantagas,
+    color: "bg-green-700",
+    colorHover: "hover:text-green-700",
+    detalles: "Formulación participativa de los Planes de Manejo Ambiental y el diseño de los planes de monitoreo del complejo de humedales Laguna Verde en el municipio de Ubalá y los complejos de humedales al Corbata y Tembladares en Junín, Jurisdicción de CORPOGUAVIO"
   }
   
   

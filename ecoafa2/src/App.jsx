@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 
 
-import Layout from './Components/Header/Layout';
+import Layout from './Components/Layout';
 import Proyectos from './Components/Header/Proyectos/Proyectos';
 import { Routes, Route, Router } from 'react-router-dom'
 
