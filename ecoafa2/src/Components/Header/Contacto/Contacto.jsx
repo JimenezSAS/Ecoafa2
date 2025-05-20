@@ -14,12 +14,12 @@ const Contacto = () => {
   Contacto
 </h1>
       </div>
-       <div className=" w-full max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-lg border border-green-200">
+       <div className=" w-full  mx-auto rounded-3xl overflow-hidden shadow-lg border border-green-200 ">
         <iframe 
           title="Ubicación Ecoafa"
           src="https://www.google.com/maps?q=CRA+12+%23+93+-+78+BOGOTÁ+D.C.&output=embed"
           width="100%"
-          height="400"
+          height="600"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"

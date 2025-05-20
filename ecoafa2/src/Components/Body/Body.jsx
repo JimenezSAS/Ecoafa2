@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import { Slide } from './slidebar/Slide';
 import imgAmbiental from '../../assets/images/Desarrollo_ambiental1.png';
 import imgAmbiental2 from '../../assets/images/Desarrollo_ambiental2.png';
 import desarrolloAmbiental from '../../assets/images/Nosotros2.jpg';
@@ -10,6 +11,7 @@ import Forestal1 from '../../assets/images/Forestal1.png';
 import Forestal2 from '../../assets/images/Forestal2.png';
 import Agropecuario1 from '../../assets/images/Agropecuario1.png';
 import Territorial1 from '../../assets/images/Territorial1.png';
+
 // Ejemplo de logos de clientes (puedes reemplazar las URLs por tus imágenes)
 const clientes = [
   { nombre: 'Empresa 1', logo: '/assets/clientes/cliente1.png' },
@@ -52,7 +54,7 @@ const Body = () => {
 
   const handleOpenModal = (enfoque) => {
     setModalInfo(enfoque);
-    setImgIndex(0);
+    setImgIndex(0); 
     setModalOpen(true);
   };
 
@@ -77,9 +79,9 @@ const Body = () => {
         >
           <div
             className="relative w-full h-full flex items-center justify-center"
-            onClick={e => e.stopPropagation()} // Evita que el click dentro cierre el modal
+            
           >
-            {/* Imagen extra ocupando todo el modal, sin bordes blancos */}
+            {/* Imagen extra formato de bordes*/}
             {modalInfo.imgExtra && (
               <img
                 src={Array.isArray(modalInfo.imgExtra) ? modalInfo.imgExtra[imgIndex] : modalInfo.imgExtra}
@@ -88,7 +90,7 @@ const Body = () => {
                 style={{ maxHeight: '90vh', maxWidth: '100vw' }}
               />
             )}
-            {/* Botón cerrar superpuesto */}
+            {/* Botón cerrar imgextra */}
             <button
               className="absolute top-8 right-10 text-4xl text-white hover:text-[#95B811] font-bold z-40"
               onClick={handleCloseModal}
@@ -128,11 +130,17 @@ const Body = () => {
 
   return (
     <div className="bg-gradient-to-br from-[#dce6b6] via-[#ffffff] to-[#edf0e4] min-h-screen py-10 px-4">
+      {/* Slide principal */}
+      <div className="max-w-5xl mx-auto mb-16">
+        <Slide />
+      </div>
+
       {/* Servicios */}
       <section className="max-w-5xl mx-auto mb-16">
         <h2 className="text-4xl font-bold text-center text-green-800 mb-6">Servicios</h2>
         <p className="text-lg text-center text-gray-700 mb-10">
-          Los servicios que ofrece <span className="font-semibold text-green-700">ECOAFA S.A.S</span> se encuentran en el marco de la normatividad ambiental vigente, enfocados al desarrollo sostenible y a la responsabilidad social.
+          Los servicios que ofrece <span className="font-semibold text-green-700">ECOAFA S.A.S
+          </span> se encuentran en el marco de la normatividad ambiental vigente, enfocados al desarrollo sostenible y a la responsabilidad social.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {enfoques.map((enfoque, idx) => (
@@ -141,7 +149,7 @@ const Body = () => {
               className="relative rounded-2xl shadow-lg border border-green-200 overflow-hidden h-64 flex flex-col cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
               onClick={() => handleOpenModal(enfoque)}
             >
-              {/* Imagen principal: solo la mitad superior */}
+              {/* Imagen principal */}
               <div
                 className="w-full"
                 style={{
@@ -177,7 +185,7 @@ const Body = () => {
         </div>
       </section>
 
-      {/* Modal usando portal */}
+      {/* Modal*/}
       {modal}
 
       {/* Nuestros Clientes */}
@@ -200,9 +208,7 @@ const Body = () => {
           ))}
         </div>
       </section>
-      
     </div>
-    
   );
 };
 
