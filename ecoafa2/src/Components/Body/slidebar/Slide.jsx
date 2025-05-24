@@ -42,39 +42,40 @@ export const Slide = () => {
     }
 
     return (
-        <div className="relative w-full max-w-3xl mx-auto flex items-center justify-center overflow-hidden rounded-2xl shadow-lg bg-white h-72">
+        <div className="relative w-screen -left-44 -top-10 h-64 md:h-[32rem] overflow-hidden rounded-none shadow-lg bg-gray-200">
             {/* Botón anterior */}
             <button
-                className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-green-100 text-green-800 rounded-full w-10 h-10 flex items-center justify-center shadow transition-all duration-200 border border-green-200"
-                onClick={handlePrevClick}
-                aria-label="Anterior"
-            >
-                <span className="text-3xl font-bold select-none">&lsaquo;</span>
-            </button>
-            {/* Botón siguiente */}
-            <button
-                className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-green-100 text-green-800 rounded-full w-10 h-10 flex items-center justify-center shadow transition-all duration-200 border border-green-200"
-                onClick={handleNextClick}
-                aria-label="Siguiente"
-            >
-                <span className="text-3xl font-bold select-none">&rsaquo;</span>
-            </button>
+    className="absolute top-1/2 left-4 z-10 -translate-y-1/2 bg-black/60 text-white rounded-2xl  p-2 shadow transition-all duration-400 cursor-pointer
+               hover:bg-[#0056B3] hover:text-white hover:translate-y-2 "
+    onClick={handlePrevClick}
+    aria-label="Anterior"
+>
+    <span className="text-3xl font-bold">&lsaquo;</span>
+</button>
+<button
+    className="absolute top-1/2 right-4 z-10 -translate-y-1/2 bg-black/60 text-white rounded-2xl p-2 shadow transition-all duration-400 cursor-pointer
+               hover:bg-[#0056B3] hover:text-white hover:translate-y-2 "
+    onClick={handleNextClick}
+    aria-label="Siguiente"
+>
+    <span className="text-3xl font-bold">&rsaquo;</span>
+</button>
             {/* Imágenes */}
             {images.map((image, index) => (
                 <img
                     key={index}
                     src={image}
                     alt={`Slide ${index + 1}`}
-                    className={`absolute inset-0 w-full h-72 object-cover transition-opacity duration-700 ease-in-out ${index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+                    className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${index === currentIndex ? 'opacity-100 z-0' : 'opacity-0 z-0'}`}
                     draggable="false"
                 />
             ))}
             {/* Dots */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-30">
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20">
                 {images.map((_, index) => (
                     <button
                         key={index}
-                        className={`w-3 h-3 rounded-full border-2 border-green-700 transition-all duration-300 focus:outline-none ${index === currentIndex ? 'bg-green-700 scale-125 shadow' : 'bg-white'}`}
+                        className={`w-3 h-3 rounded-full border-2 border-green-700 transition-all duration-200 ${index === currentIndex ? 'bg-green-700 scale-125' : 'bg-white'}`}
                         onClick={() => handleDotClick(index)}
                         aria-label={`Ir al slide ${index + 1}`}
                         tabIndex={0}

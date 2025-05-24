@@ -11,6 +11,7 @@ import Forestal1 from '../../assets/images/Forestal1.png';
 import Forestal2 from '../../assets/images/Forestal2.png';
 import Agropecuario1 from '../../assets/images/Agropecuario1.png';
 import Territorial1 from '../../assets/images/Territorial1.png';
+import Clientes from './NuestrosClientes/Clientes'; 
 
 // Ejemplo de logos de clientes (puedes reemplazar las URLs por tus imágenes)
 const clientes = [
@@ -188,26 +189,10 @@ const Body = () => {
       {/* Modal*/}
       {modal}
 
-      {/* Nuestros Clientes */}
-      <section className="max-w-5xl mx-auto mt-20">
-        <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Nuestros Clientes</h2>
-        <div className="flex flex-wrap justify-center gap-8">
-          {clientes.map((cliente) => (
-            <div
-              key={cliente.nombre}
-              className="bg-white rounded-xl shadow-md p-4 hover:scale-105 transition-transform duration-300 flex flex-col items-center"
-              title={cliente.nombre}
-            >
-              <img
-                src={cliente.logo}
-                alt={cliente.nombre}
-                className="w-24 h-24 object-contain mb-2"
-              />
-              <span className="text-green-700 font-medium">{cliente.nombre}</span>
-            </div>
-          ))}
-        </div>
-      </section>
+     {/* Nuestros Clientes */}
+<section className="max-w-7xl mx-auto mt-20">
+  <Clientes />
+</section>
     </div>
   );
 };
