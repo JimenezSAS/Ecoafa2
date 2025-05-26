@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { Slide } from './slidebar/Slide';
+import {Slide} from './Slide';
 import imgAmbiental from '../../assets/images/Desarrollo_ambiental1.png';
 import imgAmbiental2 from '../../assets/images/Desarrollo_ambiental2.png';
 import desarrolloAmbiental from '../../assets/images/Nosotros2.jpg';
@@ -11,7 +11,8 @@ import Forestal1 from '../../assets/images/Forestal1.png';
 import Forestal2 from '../../assets/images/Forestal2.png';
 import Agropecuario1 from '../../assets/images/Agropecuario1.png';
 import Territorial1 from '../../assets/images/Territorial1.png';
-import Clientes from './NuestrosClientes/Clientes'; 
+import Clientes from './Clientes'
+import Sections from './Sections';
 
 // Ejemplo de logos de clientes (puedes reemplazar las URLs por tus imágenes)
 const clientes = [
@@ -188,6 +189,11 @@ const Body = () => {
 
       {/* Modal*/}
       {modal}
+      
+      {/* Sección de Nosotros */}
+      <div>
+        <Sections />
+      </div>
 
      {/* Nuestros Clientes */}
 <section className="max-w-7xl mx-auto mt-20">

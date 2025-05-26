@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
- 
+import Formulario from './Formulario';
 
 const Contacto = () => {
 
@@ -26,7 +26,11 @@ const Contacto = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      
     <div className="w-full flex flex-col justify-center items-center py-16 bg-gradient-to-b from-white to-green-50">
+    <div>
+          <Formulario />
+        </div>
       <section className="w-full max-w-4xl bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row overflow-hidden border border-green-200">
         {/* Información de contacto */}
         <div className="bg-[#0097B2] text-white flex flex-col justify-center items-start p-10 md:w-1/2 gap-8">
@@ -52,6 +56,7 @@ const Contacto = () => {
             </div>
           </div>
         </div>
+     
         {/* Perfil profesional */}
         <div className="flex flex-col justify-center items-start p-10 md:w-1/2 bg-gradient-to-br from-lime-50 via-white to-green-100">
           <p className="text-2xl font-bold text-green-900 mb-2 tracking-wide">
@@ -73,7 +78,7 @@ const Contacto = () => {
           
         </div>
       </section>
-    
+       
      
     </div>
     </div>

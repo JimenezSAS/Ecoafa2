@@ -1,26 +1,27 @@
+
 import React, { useRef } from "react";
-import Imagen1 from '../../../assets/Icons/Imagen1.png';
-import Imagen2 from '../../../assets/Icons/Imagen2.png';
-import Imagen3 from '../../../assets/Icons/Imagen3.png';
-import Imagen4 from '../../../assets/Icons/Imagen4.png';
-import Imagen5 from '../../../assets/Icons/Imagen5.png';
-import Imagen6 from '../../../assets/Icons/Imagen6.png';
-import Imagen7 from '../../../assets/Icons/Imagen7.png';
-import Imagen8 from '../../../assets/Icons/Imagen8.png';
-import Imagen9 from '../../../assets/Icons/Imagen9.png';
-import Imagen10 from '../../../assets/Icons/Imagen10.png';
-import Imagen11 from '../../../assets/Icons/Imagen11.png';
-import Imagen12 from '../../../assets/Icons/Imagen12.png';
-import Imagen13 from '../../../assets/Icons/Imagen13.png';
-import Imagen14 from '../../../assets/Icons/Imagen14.png';
-import Imagen15 from '../../../assets/Icons/Imagen15.png';
-import Imagen16 from '../../../assets/Icons/Imagen16.png';
-import Imagen17 from '../../../assets/Icons/Imagen17.png';
-import Imagen18 from '../../../assets/Icons/Imagen18.png';
-import Imagen19 from '../../../assets/Icons/Imagen19.png';
-import Imagen21 from '../../../assets/Icons/Imagen21.png';
-import Imagen22 from '../../../assets/Icons/Imagen22.png';
-import Imagen23 from '../../../assets/Icons/Imagen23.png';
+import Imagen1 from '../../assets/Icons/Imagen1.png';
+import Imagen2 from '../../assets/Icons/Imagen2.png';
+import Imagen3 from '../../assets/Icons/Imagen3.png';
+import Imagen4 from '../../assets/Icons/Imagen4.png';
+import Imagen5 from '../../assets/Icons/Imagen5.png';
+import Imagen6 from '../../assets/Icons/Imagen6.png';
+import Imagen7 from '../../assets/Icons/Imagen7.png';
+import Imagen8 from '../../assets/Icons/Imagen8.png';
+import Imagen9 from '../../assets/Icons/Imagen9.png';
+import Imagen10 from '../../assets/Icons/Imagen10.png';
+import Imagen11 from '../../assets/Icons/Imagen11.png';
+import Imagen12 from '../../assets/Icons/Imagen12.png';
+import Imagen13 from '../../assets/Icons/Imagen13.png';
+import Imagen14 from '../../assets/Icons/Imagen14.png';
+import Imagen15 from '../../assets/Icons/Imagen15.png';
+import Imagen16 from '../../assets/Icons/Imagen16.png';
+import Imagen17 from '../../assets/Icons/Imagen17.png';
+import Imagen18 from '../../assets/Icons/Imagen18.png';
+import Imagen19 from '../../assets/Icons/Imagen19.png';
+import Imagen21 from '../../assets/Icons/Imagen21.png';
+import Imagen22 from '../../assets/Icons/Imagen22.png';
+import Imagen23 from '../../assets/Icons/Imagen23.png';
 
 
 
@@ -67,12 +68,13 @@ const Clientes = () => {
           {imagenes.map((img, idx) => (
             <div
               key={idx}
-              className="flex-shrink-0 w-40 h-40 md:w-48 md:h-48 bg-white rounded-xl shadow border flex items-center justify-center p-4 hover:scale-105 transition-transform duration-300"
+              className="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 bg-white/40 backdrop-blur-md rounded-3xl shadow-lg flex items-center justify-center p-3 hover:scale-110 hover:shadow-2xl transition-transform duration-300 border-none outline-none"
+              style={{ boxShadow: '0 6px 24px 0 rgba(0,0,0,0.10), 0 1.5px 6px 0 rgba(0,0,0,0.08)' }}
             >
               <img
                 src={img}
                 alt={`Cliente ${idx + 1}`}
-                className="object-contain w-full h-full"
+                className="object-contain w-full h-full drop-shadow-md hover:drop-shadow-xl transition duration-300"
                 draggable="false"
               />
             </div>

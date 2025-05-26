@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import img1 from '../../../assets/slide/1.png'
-import img2 from '../../../assets/slide/2.avif';
-import img3 from '../../../assets/slide/3.avif';
-import img4 from '../../../assets/slide/4.avif';
-import img5 from '../../../assets/slide/5.avif';
+import img1 from '../../assets/slide/1.png'
+import img2 from '../../assets/slide/2.avif';
+import img3 from '../../assets/slide/3.avif';
+import img4 from '../../assets/slide/4.avif';
+import img5 from '../../assets/slide/5.avif';
 
 const images = [img1, img2, img3, img4, img5];
 

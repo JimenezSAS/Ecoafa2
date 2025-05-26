@@ -16,11 +16,11 @@ const Header = () => {
           </Link>
 
           <Link to="/nosotros" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
-            About
+            Nosotros
           </Link>
 
           <Link to="/contacto"  className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300">
-            Contact
+            Contacto
           </Link>
 
           <Link to="/proyectos" className="hover:text-[#93B611] hover:bg-gray-200 flex  rounded-[10px] hover:text-[22px] transition-all duration-300" >
